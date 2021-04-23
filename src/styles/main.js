@@ -7,6 +7,32 @@ export const Main = styled.div`
   justify-content: flex-start;
   min-height: 100vh;
 `;
+export const Sidebar = styled.div`
+  width: 290px;
+  height: 100%;
+  min-height: 100vh;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  background: ${colors.white};
+  z-index: 1050;
+  overflow-y: auto;
+  scroll-behavior: smooth;
+`;
+export const Header = styled.div`
+  width: 290px;
+  height: 100%;
+  min-height: 100vh;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  background: ${colors.white};
+  z-index: 1050;
+  overflow-y: auto;
+  scroll-behavior: smooth;
+`;
 
 export const Section = styled.section`
   width: 100%;
@@ -15,7 +41,7 @@ export const Section = styled.section`
   padding: 15px;
   padding-left: 190px;
   padding-top: 60px;
-  background: ${colors.white};
+  background: ${colors.bc};
   @media (max-width: 1024px) {
     & {
       padding-left: 70px;
