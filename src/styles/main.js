@@ -7,7 +7,7 @@ export const Main = styled.div`
   justify-content: flex-start;
   min-height: 100vh;
 `;
-export const Sidebar = styled.div`
+export const SidebarStyled = styled.div`
   width: 290px;
   height: 100%;
   min-height: 100vh;
@@ -20,18 +20,16 @@ export const Sidebar = styled.div`
   overflow-y: auto;
   scroll-behavior: smooth;
 `;
-export const Header = styled.div`
-  width: 290px;
-  height: 100%;
-  min-height: 100vh;
+export const NavbarStyled = styled.div`
   position: fixed;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  background: ${colors.white};
-  z-index: 1050;
-  overflow-y: auto;
-  scroll-behavior: smooth;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 60px;
+  padding-left: 290px;
+  padding-right: 30px;
+  line-height: 60px;
+  z-index: 100;
 `;
 
 export const Section = styled.section`

@@ -1,7 +1,8 @@
 import React from "react";
+import { NavbarStyled } from "../styles/main";
 
 function Navbar() {
-  return <div>Navbar</div>;
+  return <NavbarStyled>Navbar</NavbarStyled>;
 }
 
 export default Navbar;
