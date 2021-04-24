@@ -10,6 +10,7 @@ function App() {
         <Sidebar />
         <Navbar />
         <Section>
+          section
           <Switch>
             {/* {routes.map((item) => {
               return (

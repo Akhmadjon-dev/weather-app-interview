@@ -4,4 +4,5 @@ export default {
   lightText: "#aeaeae",
   text: "#000000",
   white: "#fff",
+  mainBc: "#d6d7da",
 };
