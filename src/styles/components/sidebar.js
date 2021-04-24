@@ -23,7 +23,11 @@ export const SidebarInner = `
        top: 7px;
        left: 50%;
        font-size: 41px;
-       font-weight: 500;
+       font-weight: 400;
+    }
+    .navbar__gradus-symbol{
+       font-weight: 700;
+
    }
    .sidebar__date{
         font-size: 18px;

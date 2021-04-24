@@ -34,7 +34,9 @@ export default function Sidebar() {
         </div>
         <div className="sidebar__gradus">
           12
-          <span className="sidebar__gradus-unit">C</span>
+          <span className="sidebar__gradus-unit">
+            <sup className="navbar__gradus-symbol">&#9900;</sup>C
+          </span>
         </div>
         <h4 className="sidebar__date">
           Monday, <span className="sidebar__time">15:00</span>

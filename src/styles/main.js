@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import colors from "./colors";
+import { NavbarInner } from "./components/navbar";
 import { SidebarInner } from "./components/sidebar";
 
 export const Main = styled.div`
@@ -36,6 +37,7 @@ export const NavbarStyled = styled.div`
   padding-right: 30px;
   line-height: 60px;
   z-index: 100;
+  ${NavbarInner}
 `;
 
 export const Section = styled.section`
