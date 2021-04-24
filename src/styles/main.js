@@ -9,6 +9,7 @@ export const Main = styled.div`
   justify-content: flex-start;
   height: 100vh;
   padding: 20px 30px;
+  flex-direction: column;
   background: ${colors.mainBc};
 `;
 export const SidebarStyled = styled.div`
@@ -16,7 +17,7 @@ export const SidebarStyled = styled.div`
   width: 290px;
   position: fixed;
   top: 20px;
-  bottom: 5px;
+  bottom: 20px;
   left: 30px;
   background: ${colors.white};
   border-top-left-radius: 30px;
@@ -27,29 +28,28 @@ export const SidebarStyled = styled.div`
   ${SidebarInner}
 `;
 export const NavbarStyled = styled.div`
-  position: fixed;
+  border-top-left-radius: 30px;
   display: flex;
   align-items: center;
   border-top-right-radius: 30px;
   width: 100%;
   height: 60px;
-  margin-left: 290px;
+  padding-left: 290px;
   padding-right: 30px;
   line-height: 60px;
   z-index: 100;
+  background: ${colors.bc};
   ${NavbarInner}
 `;
 
 export const Section = styled.section`
   width: 100%;
   height: 100%;
-
-  border-top-right-radius: 30px;
+  border-bottom-left-radius: 30px;
   border-bottom-right-radius: 30px;
   height: 96vh;
   padding: 15px;
-  margin-left: 290px;
-  padding-top: 60px;
+  padding-left: 290px;
   background: ${colors.bc};
   // @media (max-width: 1024px) {
   //   & {
