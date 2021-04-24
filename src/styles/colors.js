@@ -5,4 +5,5 @@ export default {
   text: "#000000",
   white: "#fff",
   mainBc: "#d6d7da",
+  lightBorder: "#efeff1",
 };

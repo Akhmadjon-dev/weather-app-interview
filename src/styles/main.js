@@ -11,7 +11,7 @@ export const Main = styled.div`
   background: ${colors.mainBc};
 `;
 export const SidebarStyled = styled.div`
-  padding: 20px;
+  padding: 30px;
   width: 290px;
   position: fixed;
   top: 20px;
@@ -21,7 +21,7 @@ export const SidebarStyled = styled.div`
   border-top-left-radius: 30px;
   border-bottom-left-radius: 30px;
   z-index: 1050;
-  overflow-y: auto;
+  overflow: hidden;
   scroll-behavior: smooth;
   ${SidebarInner}
 `;
