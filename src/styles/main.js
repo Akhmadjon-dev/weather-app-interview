@@ -34,7 +34,7 @@ export const NavbarStyled = styled.div`
   border-top-right-radius: 30px;
   width: 100%;
   height: 60px;
-  padding-left: 290px;
+  padding-left: 300px;
   padding-right: 30px;
   line-height: 60px;
   z-index: 100;
@@ -49,7 +49,7 @@ export const Section = styled.section`
   border-bottom-right-radius: 30px;
   height: 96vh;
   padding: 15px;
-  padding-left: 290px;
+  padding-left: 300px;
   background: ${colors.bc};
   // @media (max-width: 1024px) {
   //   & {
