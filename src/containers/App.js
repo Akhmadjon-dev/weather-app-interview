@@ -1,5 +1,6 @@
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 import Navbar from "../components/Navbar";
+import SectionBlock from "../components/SectionBlock";
 import Sidebar from "../components/Sidebar";
 import { Main, Section } from "../styles/main";
 
@@ -10,7 +11,7 @@ function App() {
         <Sidebar />
         <Navbar />
         <Section>
-          section
+          <SectionBlock />
           <Switch>
             {/* {routes.map((item) => {
               return (
