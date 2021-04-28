@@ -5,11 +5,13 @@ function Navbar() {
   const [activeTime, setActiveTime] = useState(1);
   const [activeUnit, setActiveUnit] = useState(1);
 
-  // it style of creating tabs or list which one of them might be active
+  // it style of creating tabs or list which one of them might be active I think this is convenient way
   const timeList = [
     { title: "Today", class: "navbar__tab", index: 1 },
     { title: "Week", class: "navbar__tab", index: 2 },
   ];
+
+  // unit switch also has toggle function but used by not experienced way
 
   return (
     <NavbarStyled>
@@ -28,7 +30,7 @@ function Navbar() {
           </li>
         ))}
       </ul>
-      <ul className="navbar__tabs-unit">
+      <ul className="navbar__unit-tabs">
         <li
           onClick={() => setActiveUnit(1)}
           className={
@@ -44,7 +46,7 @@ function Navbar() {
           className={
             activeUnit === 2
               ? "navbar__unit-tab navbar__unit-tab--active"
-              : "navbar__unit-tab"
+              : "navbar__unit-tab "
           }
         >
           <sup className="navbar__gradus-symbol">&#9900;</sup>F
